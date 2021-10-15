@@ -2,11 +2,14 @@ import React from "react";
 import { Container } from "semantic-ui-react";
 import Head from "next/head";
 import Header from "./Header";
+import styles from './body.module.css';
+
+
 
 const Layout = (props) => {
   return (
-    <div>
-      <Container>
+    <div className ={styles.plz} >
+      <Container >
         <Head>
           <link
             rel="stylesheet"
